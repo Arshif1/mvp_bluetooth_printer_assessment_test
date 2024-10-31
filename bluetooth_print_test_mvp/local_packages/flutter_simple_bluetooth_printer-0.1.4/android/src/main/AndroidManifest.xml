@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    &lt;!&ndash; Request legacy Bluetooth permissions on older devices. &ndash;&gt;-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.BLUETOOTH"-->
+<!--        android:maxSdkVersion="30" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.BLUETOOTH_ADMIN"-->
+<!--        android:maxSdkVersion="30" />-->
+
+<!--    &lt;!&ndash; For Android6(API23)-Android11(API30) &ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
+<!--    &lt;!&ndash; For Android12(API31)+ &ndash;&gt;-->
+<!--    &lt;!&ndash;@see https://developer.android.google.cn/about/versions/12/features/bluetooth-permissions&ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />-->
+
+</manifest>
